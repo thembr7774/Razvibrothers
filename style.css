@@ -1,0 +1,251 @@
+body{
+  background-image:url(/contemporary-building-exterior-skyscraper-design-concept.jpg)  ;
+}
+
+header{
+  background-color: #005f73;
+    color: white;
+  padding: 15px 0;
+  
+}
+
+.header-content {
+    max-width: 1400px;
+    max-height: 450px;
+    margin: 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+  margin-left: 20px;
+}
+
+nav ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li{
+  margin-right: 15px;
+}
+nav ul li a{
+  color: wnav ul li a;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#hero {
+    background-image: url('https://i.imgur.com/oXrLmSl.jpg'); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #3892D7;
+}
+
+
+.hero-content {
+    background-color: #A9A9A9;
+    padding: 20px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 10.0s;
+}
+.hero-button:hover {
+    background-color: #d64b2a;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 10.0s;
+}
+.hero-button:hover {
+    background-color: #d64b2a;
+}
+
+/* Existing CSS remains the same */
+/* Styling for Services Section */
+#services {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#services h2 {
+    color: #7642C4;
+    margin-bottom: 15px;
+}
+
+#services ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#services li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#services .info{
+  font-size: 28px;
+}
+
+/* Styling for About Section */
+#about {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 70px;
+    color: #92D66F;
+}
+#about h2 {
+    color: #6ACCAA;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Styling for footer section */
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 70px;
+}
+
+
+/* Hover Effects */
+#services l/* Hover Effects */
+#services li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+    #services, #about, #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+i:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and(max-width: 600px;) {
+    #services, #about, #contact {
+        text-align: center;
+         }
+         #about{
+           font-size: 1.5rem;
+         }
+}
+
+/* form design*/
+.details{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  color: #9A0821;
+}
+
+form{
+  border: 2px solid black;
+  width: 265px;
+  height: 250px;
+  align-items: center;
+  margin-top: 20px;
+  align-content: center;
+  margin-left: 300px;
+  size: 450px;
+}
+
+.div{
+  
+  padding-left: 50px;
+  padding-top: 0;
+  margin-top: 00;
+  align-items: center;
+  align-content: center;
+  }
+  
+  .div form input {
+  width: 250px;
+  height: 25px;
+  background: #FFFFFF;
+  padding: 2px 5px;
+  border: 10;
+  outline: 10;
+  font-size: .7rem;
+  color: #000000;
+}
+
+.massage{
+  width: 253px;
+  height: 25px;
+  background: #FFFFFF;
+  padding: 2px 5px;
+  border: 0;
+  outline: 0;
+  font-size: .180px;
+  color: #000000;
+}
+
+.submit form input {
+  width: 600px;
+  height: 25px;
+  background: #2DCB69;
+  padding-top: 20px;
+ 
+  }
+
+.div form input::placeholder {
+  user-select: none;
+}
+
+.city{
+  width: 265px;
+  height: 25px;
+  background: #F7FEFF;
+  padding: 2px 5px;
+  border: 0;
+  outline: 0;
+  font-size: .7rem;
+}
